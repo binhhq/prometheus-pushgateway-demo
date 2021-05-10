@@ -6,6 +6,11 @@ Step 2: Run push gateway
 
 docker run -p 9091:9091 --name=pushgateway --network=binhhq prom/pushgateway
 
+	
+Step 3: Run main class PushPrometheusApplication
+
+docker run -p 9091:9091 --name=pushgateway --network=binhhq prom/pushgateway
+
 Note:
 - Both container should join same network
 - Update file config directory 
