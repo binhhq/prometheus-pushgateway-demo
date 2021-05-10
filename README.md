@@ -1,5 +1,6 @@
 # prometheus-pushgateway-demo
 **Step 1: Run prometheus**
+
 docker run  -p 9090:9090 --name=prometheus -v C:/Users/daisu/Downloads/learnProject/prometheus/config/push-gateway.yml:/etc/prometheus/prometheus.yml --network=binhhq prom/prometheus
 	
 **Step 2: Run push gateway**
