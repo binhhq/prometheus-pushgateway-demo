@@ -13,4 +13,4 @@ docker run -p 9091:9091 --name=pushgateway --network=binhhq prom/pushgateway
 
 **Note:**
 - Both container should join same network
-- Update file config directory 
+- Update file config directory in step1
