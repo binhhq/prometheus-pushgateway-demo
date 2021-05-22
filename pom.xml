@@ -13,7 +13,7 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/io.prometheus/simpleclient -->
+        <!-- https://mvnrepository.com/artifact/io.prometheus/simpleclient a -->
         <!-- https://mvnrepository.com/artifact/io.prometheus/simpleclient_pushgateway -->
         <dependency>
             <groupId>io.prometheus</groupId>
